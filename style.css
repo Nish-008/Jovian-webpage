@@ -88,6 +88,42 @@ h3{
     margin-top: 0;
 }
 
+#application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+.form-group {
+    margin: 16px 0;
+}
+
+#application-form label{
+    font-weight: 600;
+}
+
+#application-form input, select, textarea{
+    padding: 4px;
+    font: 1.25rem;
+    border-radius: 5px;
+    border-color:1px solid gray;
+}
+.form-group textarea{
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+.form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"]{
+  background-color: rgb(117, 117, 228) ;
+  font-weight: 600;
+  color: white;
+  padding: 16px 16px 16px 16px;
+  cursor: pointer;
+}
+
 .Apply{
     float: right;
 }
